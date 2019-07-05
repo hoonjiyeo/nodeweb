@@ -5,12 +5,20 @@ html
     link(rel='stylesheet', href='/stylesheets/style.css')
     link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
   body
-    nav
-      a(href='#') Yeo
-      a(href='#') Home
-      a(href='#') News
-      a(href='#') Contact
-      a(href='#') About
+    .navbar
+      a.homelink(href='#') Mypage
+      nav
+        ul
+          li
+            a.navmenu(href='#') Yeo
+          li  
+            a.navmenu(href='#') Home
+          li
+            a.navmenu(href='#') News
+          li
+            a.navmenu(href='#') Contact
+          li
+            a.navmenu(href='#') About
     block content
     script(src='/javascripts/jquery-3.4.1.min.js')
     script(src='/javascripts/bootstrap.min.js')
